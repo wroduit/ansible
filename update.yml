@@ -1,5 +1,5 @@
 ---
-- hosts: "{{ teste }}"
+- hosts: "{{teste}}"
   become: yes
   tasks:
     - name: upgrade apt packages
